@@ -1,0 +1,78 @@
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.i-lg {
+  font-size: 18pt;
+}
+
+.o-75 {
+  opacity: .75;
+  transition: opacity .2s ease;
+}
+
+.o-hover:hover {
+  opacity: 1;
+}
+
+.filter-grayscale {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all .5s ease;
+ }
+
+.filter-grayscale:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+ }
+
+.site-header {
+  background-color: #333;
+}
+
+.site-header .bar {
+  color: white;
+  justify-content: space-around;
+}
+
+.site-header .nav-link {
+  color: white;
+}
+
+.site-banner {
+  background-image: url('./../images/homepage-header.png');
+  background-size: cover;
+}
+
+.gallery-item {
+  height: 255px;
+  position: relative;
+}
+
+.gallery-hero {
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s ease;
+}
+
+.gallery-item:hover .gallery-hero {
+  opacity: 1;
+  visibility: visible;
+}
+
+.call-to-action .bg-cover {
+  top: 0;
+}
